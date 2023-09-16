@@ -1,0 +1,47 @@
+.climbing-container {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.parallax-section-climbing {
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+#climbing1 {
+  background-image: url('/public/Media/Photos/NorthCascasdeLanscape.jpg'); 
+}
+
+#climbing2 {
+  background-image: url('/public/Media/Photos/IndexWall.jpg'); 
+}
+
+#climbing3 {
+  background-image: url('/public/Media/Photos/IndexWall.jpg'); 
+}
+/* ... Add more IDs or classes for each background image ... */
+
+.content-container-climbing {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.content-container-climbing.right {
+  position: absolute;
+  right: 0;
+}
+
+.white-space-climbing {
+  height: 300px;
+  background: #fff;
+}
