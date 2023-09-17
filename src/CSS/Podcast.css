@@ -15,11 +15,11 @@
 }
 
 #section1 {
-  background-image: url('/public/Media/Photos/IndexWall.jpg'); 
+  background-image: url('/public/Media/Photos/Background/IndexWall.jpg'); 
 }
 
 #section2 {
-  background-image: url('/public/Media/Photos/UpTrack.jpg'); 
+  background-image: url('/public/Media/Photos/Skiing/UpTrack.jpg'); 
 }
 
 /* ... Add more IDs or classes for each background image ... */
