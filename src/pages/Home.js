@@ -8,7 +8,7 @@ function Home() {
 
       <section className="intro-section">
         <img src="/Media/Photos/Profile.jpg" alt="Cameron Griffin" className="profile-pic" />
-        <h1>Welcome to Cameron Griffin's Blog</h1>
+        <h1>Welcome to Mountain High Productions</h1>
         <p>A blend of professional experiences, technical skills, and a deep connection to the community.</p>
       </section>
 

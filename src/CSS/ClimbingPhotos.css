@@ -16,17 +16,84 @@
 }
 
 #climbing1 {
-  background-image: url('/public/Media/Photos/NorthCascasdeLanscape.jpg'); 
+  background-image: url('/public/Media/Photos/Background/NorthCascasdeLanscape.jpg'); 
 }
 
 #climbing2 {
-  background-image: url('/public/Media/Photos/IndexWall.jpg'); 
+  background-image: url('/public/Media/Photos/Background/IndexWall.jpg'); 
 }
 
 #climbing3 {
-  background-image: url('/public/Media/Photos/IndexWall.jpg'); 
+  background-image: url('/public/Media/Photos/Background/3WaPass.jpg'); 
 }
-/* ... Add more IDs or classes for each background image ... */
+
+#climbing4 {
+  background-image: url('/public/Media/Photos/Background/4Prusik.jpg'); 
+}
+
+#climbing5 {
+  background-image: url('/public/Media/Photos/Background/5LibBell.jpg'); 
+}
+
+#climbing6 {
+  background-image: url('/public/Media/Photos/Background/6Sunset.jpg'); 
+}
+
+#climbing7 {
+  background-image: url('/public/Media/Photos/Background/7Cut.jpg'); 
+}
+
+#climbing8 {
+  background-image: url('/public/Media/Photos/Background/8Hwy20.jpg'); 
+}
+
+#climbing9 {
+  background-image: url('/public/Media/Photos/Background/9Baker.jpg'); 
+}
+
+#climbing10 {
+  background-image: url('/public/Media/Photos/Background/10NorthBend.jpg'); 
+}
+
+#climbing11 {
+  background-image: url('/public/Media/Photos/Background/11NorthCascade.jpg'); 
+}
+
+#climbing12 {
+  background-image: url('/public/Media/Photos/Background/12Shuksan.jpg'); 
+}
+
+#climbing13 {
+  background-image: url('/public/Media/Photos/Background/13WaPass.jpg'); 
+}
+
+#climbing14 {
+  background-image: url('/public/Media/Photos/Background/14Smith.jpg'); 
+}
+
+#climbing15 {
+  background-image: url('/public/Media/Photos/Background/15Erie.jpg'); 
+}
+
+#climbing16 {
+  background-image: url('/public/Media/Photos/Background/16CascadeRoad.jpg'); 
+}
+
+#climbing17 {
+  background-image: url('/public/Media/Photos/Background/17Baker.jpg'); 
+}
+
+#climbing18 {
+  background-image: url('/public/Media/Photos/Background/18Vesper.jpg'); 
+}
+
+#climbing19 {
+  background-image: url('/public/Media/Photos/Background/19Dar.jpg'); 
+}
+
+#climbing20 {
+  background-image: url('/public/Media/Photos/Background/20Lake.jpg'); 
+}
 
 .content-container-climbing {
   text-align: center;
@@ -34,6 +101,7 @@
   padding: 20px;
   border-radius: 10px;
   max-width: 300px;
+  z-index: 2;
 }
 
 .content-container-climbing.right {
@@ -45,3 +113,84 @@
   height: 300px;
   background: #fff;
 }
+
+.content-container-climbing h1,
+.content-container-climbing p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.photo-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto; 
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.modal-content img {
+  width: auto; 
+  height: auto;
+    border-radius: 10px;
+    max-height: 90vh; 
+    max-width: 70vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-content p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 20px;
+}
+
+.photo-overlay {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: 150px;
+}
+
+.photo-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.photo-overlay img:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail-image {
+  margin-top: 20px;
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.static-thumbnail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px; 
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px black;
+  z-index: 1; 
+}
+
