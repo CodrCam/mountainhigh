@@ -1,0 +1,128 @@
+.urban-container {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.parallax-section-urban {
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+#urban1 {
+  background-image: url('/public/Media/Photos/Background/Urban1.jpg'); 
+}
+
+#urban2 {
+  background-image: url('/public/Media/Photos/Background/Urban2.jpg'); 
+}
+
+#urban3 {
+  background-image: url('/public/Media/Photos/Background/Urban3.jpg'); 
+}
+
+#urban4 {
+  background-image: url('/public/Media/Photos/Background/Urban4.jpg'); 
+}
+
+#urban5 {
+  background-image: url('/public/Media/Photos/Background/Urban5.jpg'); 
+}
+
+#urban6 {
+  background-image: url('/public/Media/Photos/Background/Urban6.jpg'); 
+}
+
+#urban7 {
+  background-image: url('/public/Media/Photos/Background/Urban7.jpg'); 
+}
+
+#urban8 {
+  background-image: url('/public/Media/Photos/Background/Urban8.jpg'); 
+}
+
+#urban9 {
+  background-image: url('/public/Media/Photos/Background/Urban9.jpg'); 
+}
+
+#urban10 {
+  background-image: url('/public/Media/Photos/Background/Urban10.jpg'); 
+}
+
+.content-container-urban {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  z-index: 2;
+}
+
+.content-container-urban.right {
+  position: absolute;
+  right: 0;
+}
+
+.white-space-urban {
+  height: 300px;
+  background: #fff;
+}
+
+.content-container-urban h1,
+.content-container-urban p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.photo-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto; 
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.modal-content img {
+  width: auto; 
+  height: auto;
+    border-radius: 10px;
+    max-height: 90vh; 
+    max-width: 70vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-content p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 20px;
+}
+
+.static-thumbnail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px; 
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px black;
+  z-index: 1; 
+}

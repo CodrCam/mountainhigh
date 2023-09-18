@@ -6,6 +6,8 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Podcast from './pages/Podcast';
 import ClimbingPhotos from './pages/ClimbingPhotos';
+import SkiingPhotos from './pages/SkiingPhotos';
+import UrbanExploration from './pages/UrbanExploration';
 
 const Navbar = styled.nav`
     display: flex;
@@ -37,6 +39,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/climbing-photos" element={<ClimbingPhotos />} />
+        <Route path="/urban-exploration" element={<UrbanExploration />} />
+        <Route path="/skiing-winter" element={<SkiingPhotos />} />
       </Routes>
     </Router>
   );

@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Photography Showcase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This platform showcases a diverse collection of photographs spanning multiple categories, namely: Climbing, Skiing, Urban/Artsy. Each category consists of a series of photos with associated descriptions. Users can click on the thumbnail of a photo to view an enlarged version in a modal.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design**: The images and layout adjust to fit various screen sizes.
+- **Interactive Thumbnails**: Clicking on a thumbnail enlarges the photo, offering users a closer look.
+- **Descriptive Content**: Each photo is paired with a title and a brief description.
+- **Diverse Categories**: Features photographs from Climbing, Skiing, and Urban/Artsy genres.
 
-### `npm start`
+### Categories
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Climbing Photography**: Captures the essence of scaling heights, with mesmerizing landscapes and human endeavors.
+2. **Skiing Photography**: Showcases the thrill of descending snowy slopes, capturing both serene and adrenaline-pumping moments.
+3. **Urban/Artsy Photography**: Highlights the beauty of city life, architecture, and abstract artistic captures.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Implementation Details
 
-### `npm test`
+The platform is constructed using React, leveraging React hooks (`useState`) for modal functionalities.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Data Structure
 
-### `npm run build`
+Photos and their details are stored as an array of objects. Each object possesses:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `id`: Unique identifier.
+- `title`: Photo title.
+- `description`: Brief description.
+- `thumbnail`: Thumbnail photo path.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## CSS Styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The design is managed via the dedicated `.css` files for each category. Flexbox ensures consistent alignment and spacing.
 
-### `npm run eject`
+## Future Enhancements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Integrated Media**: Introduction of links to "The Avalanche Hour" episodes produced, enhancing user engagement.
+- **Avalanche (AV) Project Integration**: A dedicated section featuring discussions with industry experts. This aims to provide insights into their strategies and mindset when faced with challenges.
+- **Search Functionality**: Equip users with the capability to search photos based on titles or descriptions.
+- **User Contributions**: Empower users to share their own photographs and stories, adding a personal touch to the collection.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For a local setup:
 
-## Learn More
+1. Clone the repository.
+2. Navigate to the desired directory.
+3. Run `npm install` for required packages.
+4. Launch the platform with `npm start`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Created By **Cameron Griffin**
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For inquiries, collaboration, or feedback, feel free to contact me on [My Website](www.mountainhighsounds.com/contact).
