@@ -1,0 +1,196 @@
+.skiing-container {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.parallax-section-skiing {
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+#skiing1 {
+  background-image: url('/public/Media/Photos/Background/Skiing1.jpg'); 
+}
+
+#skiing2 {
+  background-image: url('/public/Media/Photos/Background/Skiing2.jpg'); 
+}
+
+#skiing3 {
+  background-image: url('/public/Media/Photos/Background/Skiing3.jpg'); 
+}
+
+#skiing4 {
+  background-image: url('/public/Media/Photos/Background/Skiing4.jpg'); 
+}
+
+#skiing5 {
+  background-image: url('/public/Media/Photos/Background/Skiing5.jpg'); 
+}
+
+#skiing6 {
+  background-image: url('/public/Media/Photos/Background/Skiing6.jpg'); 
+}
+
+#skiing7 {
+  background-image: url('/public/Media/Photos/Background/Skiing7.jpg'); 
+}
+
+#skiing8 {
+  background-image: url('/public/Media/Photos/Background/Skiing8.jpg'); 
+}
+
+#skiing9 {
+  background-image: url('/public/Media/Photos/Background/Skiing9.jpg'); 
+}
+
+#skiing10 {
+  background-image: url('/public/Media/Photos/Background/Skiing10.jpg'); 
+}
+
+#skiing11 {
+  background-image: url('/public/Media/Photos/Background/Skiing11.jpg'); 
+}
+
+#skiing12 {
+  background-image: url('/public/Media/Photos/Background/Skiing12.jpg'); 
+}
+
+#skiing13 {
+  background-image: url('/public/Media/Photos/Background/Skiing13.jpg'); 
+}
+
+#skiing14 {
+  background-image: url('/public/Media/Photos/Background/Skiing14.jpg'); 
+}
+
+#skiing15 {
+  background-image: url('/public/Media/Photos/Background/Skiing15.jpg'); 
+}
+
+#skiing16 {
+  background-image: url('/public/Media/Photos/Background/Skiing16.jpg'); 
+}
+
+#skiing17 {
+  background-image: url('/public/Media/Photos/Background/Skiing17.jpg'); 
+}
+
+#skiing18 {
+  background-image: url('/public/Media/Photos/Background/Skiing18.jpg'); 
+}
+
+#skiing19 {
+  background-image: url('/public/Media/Photos/Background/Skiing19.jpg'); 
+}
+
+#skiing20 {
+  background-image: url('/public/Media/Photos/Background/Skiing20.jpg'); 
+}
+
+
+.content-container-skiing {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  z-index: 2;
+}
+
+.content-container-skiing.right {
+  position: absolute;
+  right: 0;
+}
+
+.white-space-skiing {
+  height: 300px;
+  background: #fff;
+}
+
+.content-container-skiing h1,
+.content-container-skiing p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.photo-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto; 
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.modal-content img {
+    width: auto; 
+    height: auto;
+    border-radius: 10px;
+    max-height: 90vh; 
+    max-width: 70vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-content p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 20px;
+}
+
+.photo-overlay {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: 150px;
+}
+
+.photo-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.photo-overlay img:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail-image {
+  margin-top: 20px;
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.static-thumbnail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px; 
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px black;
+  z-index: 1; 
+}

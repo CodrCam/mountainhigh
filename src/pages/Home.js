@@ -13,7 +13,7 @@ function Home() {
       </section>
 
       <section className="highlight-section">
-        <h2>Highlights</h2>
+        <h2>Photography</h2>
         <div className="highlight-content">
           <div className="highlight-item">
             <Link to="/climbing-photos">
@@ -24,13 +24,17 @@ function Home() {
           </div>
 
           <div className="highlight-item">
-            <img src="/Media/Photos/SeattleSkyline.jpg" alt="Urban Exploration" className="highlight-img" />
+            <Link to="/urban-exploration"> {/* Modify this link according to your app's routing */}
+              <img src="/Media/Photos/SeattleSkyline.jpg" alt="Urban Exploration" className="highlight-img" />
+            </Link>
             <h3>Urban Exploration</h3>
             <p>Dive into the urban landscapes I've explored.</p>
           </div>
 
           <div className="highlight-item">
-            <img src="/Media/Photos/skiing.jpg" alt="Skiing/Winter" className="highlight-img" />
+            <Link to="/skiing-winter"> {/* Modify this link according to your app's routing */}
+              <img src="/Media/Photos/skiing.jpg" alt="Skiing/Winter" className="highlight-img" />
+            </Link>
             <h3>Skiing/Winter</h3>
             <p>Join me in the snowy landscapes and skiing trips.</p>
           </div>
